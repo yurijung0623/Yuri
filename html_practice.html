@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<!--ko-KR: 문자 인코딩 -->
+  <!--head: 사용자에게 보여지지 않지만 정보의 정의를 위한 공간 -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <!-- width=device-width: 사용자에게 보여질 정보를 정의하는 공간 -->
+    <!-- inicial-scale=: 기본 배율 정의 -->
+    <meta name="title" content="아이엠 그라운드">
+    <meta name="description" content="나의 첫 자기소개 페이지입니다.">
+    <meta name="author" content="Kookmin Univ">
+    <meta name="keywords" content="자기소개, 국민대, 경영대학원">
+    
+    <meta property="og:title" content="아이엠 그라운드">
+    <meta property=og:description content="나의 첫 자기소개 페이지입니다.">
+    <meta property=og:image content="https://images.pexels.com/photos/20582013/pexels-photo-20582013.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <style>
+    p {
+      font-size: 10px;
+    } 
+    </style>
+    <script>
+      //alert('이 컴퓨터는 해킹되었습니다.');
+      // Js에서 주석처리 할 때 사용 //
+      
+    </script>
+    <scirpt src="./script.js">
+      
+  </head>
+  <!-- body: 사용자에게 보여질 정보를 정의하는 공간 -->
+  <body>
+    <H1>나의 자기소개 페이지 ✨</H1>
+    <H2>Contents</H2>
+    <H3>✅ 자기소개</H3>
+    <H3>✅ 직업</H3>
+    <H3>✅ 취미/특기</H3>
+    <H2>자기소개</H2>
+    <p>안녕하세요! 저는 디지털 마케팅 프로그래밍 강의를 듣는 정유리입니다.</p>
+    <!-- p: 문단 하나 기준이므로, 편의상 구분을 위함 -->
+
+    <p> 
+      <i>안녕하세요.</i> <!-- i : 형식 이탤릭 변경 -->
+      이 <b>편지</b>는 <!-- b : 형식만 볼드체 변경 -->
+      <span style="font-size: 20px;">1950년 영국</span>
+      에서 시작되어 전 세계를 돌아
+      <strong>당신에게🍀</strong>
+      <!-- strong : 의미, 형식 모두 강조 (볼드체) -->
+      <em>전달되었습니다.</em>
+      <!-- em : 의미, 형식 모두 강조 (이탤릭) -->
+    </p>
+    
+    <P>여기는 두 번째 문장입니다.
+
+      여기는 세 번째 문장입니다.
+
+      여기는 네 번째 문장입니다.
+      <P>
+      첫 문단의 첫 번째 문장입니다. </br>
+      첫 문단의 두 번째 문장입니다.
+    <!-- br: 하나 이상 쓰는 것 지양, 감점!! -->
+    </P>
+    
+    <h2>저녁메뉴 후보군 😋🍴</h2>
+    <!-- <ol reversed> -->
+    <ol type="a"> <!-- ol type: 1(defualt),a,A,i,I -->
+    <li>소고기</li>
+    <li>돼지고기</li>
+    <li>양고기</li>
+    </ol>
+    <!-- <p>1. 소고기 </p>  이렇게 쓰면 안됨 -->
+ 
+    <h2>좋아하는 동물 🐶🐾</h2>
+    <ul type="A"> <!-- 순서가 아니라 단순 나열 -->
+      <li>강아지</<li>
+      <li>똥강아지</li>
+      <li>귀여운강아지</li>
+    </ul>
+
+    <style>
+      .bg-red {
+        background-color: red;
+      }
+    </style>
+    <div id="links" class="bg-red font-link">
+    <!-- id : 태그가 질 수 있는 페이지 내의 유일한 이름 -->
+    <!-- class : 미리 정의된 스타일 속성의 이름 -->
+
+      <!-- anchor -->
+      <a href="https://festa.io/events/5003">등록하기</a></br>
+      <a href="https://festa.io/events/5003" target="_blank">새탭열기</a></br>
+    </div>
+    
+      <img src="./flower.jpg" alt="꽃" width="300" />
+
+        <picture>
+          <source srcset="./wave.jpg" media="(max-width: 480px)" />
+          <source srcset="./cat.jpg" media="(min-width: 481px)" />
+          <img src="./cat.jpg" width="300" />
+        </picture>
+      
+        <video width="640" height="360" controls="controls">
+        <source src="./wave.mp4" type="video/mp4" />
+        </video>
+    
+        <figure> 
+            <img src="./cat.jpg" alt="고양이" width="200">
+            <figcaption>이 그림은 귀여운 고양이입니다. 야옹~</figcaption>
+        </figure>
+
+      
+  </body>
+</html>
