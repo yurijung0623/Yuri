@@ -68,17 +68,66 @@
             <table>
               <thead>
                 <tr>
-                  <th>상품명</th>
+                  <th>목차</th>
                   <th>2020</th>
                   <th>2021</th>
                   <th>2022</th>
                 </tr>
               </thead>
-              <thead></thead>
-              <tbody></tbody>
+              
+              <tbody>
+                <tr>
+                  <td>자동차</td>
+                  <td>100</td>
+                  <td>120</td>
+                  <td>130</td>
+                </tr>
+                <tr>
+                  <td>모니터</td>
+                  <td>125</td>
+                  <td>262</td>
+                  <td>876</td>
+                </tr>
+                <tr>
+                  <td>에어컨</td>
+                  <td>300</td>
+                  <td>301</td>
+                  <td>402</td>
+                </tr>
+              </tbody>
+
+              <tfoot>
+                <tr>
+                  <td colspan="3">합계</td>
+                   <td>1000</td>
+                </tr>
+              </tfoot>
             </table>
-        </section>
           
+        </section>
+        
+        <section>
+          <form action="/signup" method="POST">
+            <p>Username</p>
+            <input list="names" type="text" maxlength="10" size="10">
+            <datalist id="names">
+              <option value="JohnDoe"></option>
+              <option value="JahnDoe"></option>
+              <option value="Seokdomah"></option>
+            </datalist>
+            
+            <label for="u-email">Email</label>
+            <input id="u-email" name="email" maxlength="10" size="10">
+            <label for="u-pw">Password</label>
+            <input id="u-pw" name="password" type="password">
+            
+            <label for="u-birth"> Birthday</label>
+            <input id="u-birth" name="birthday" type="date">
+
+            <input type="submit">
+            <button type="reset">초기화</button>
+          </form>
+        </section>  
       </main>
     
     <aside> <!-- aside : 요소에 이름달기(unique) class: 스타일속성 활용을 위한 이름 -->
