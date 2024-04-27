@@ -1,9 +1,7 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  background-color: #004290;
 }
-
-body{
-  background-color: #1b729d;
-  color: #dedede;
+/* 글꼴설정 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Black Han Sans", sans-serif;
 }
