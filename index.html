@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inicial-scale=1.0">
 
-    <!-- css,js files -->
+    <!-- css,js files 연습하기 위해 넣은 스타일 태그 -->
     <link href="style.css" rel="stylesheet" type="text/css">
     <style>
       body {
@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Black+Han+Sans&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Sunflower:wght@300;500;700&display=swap"
+      rel="stylesheet">
     
   </head>
   <body style="background-color: #009042;">
@@ -36,7 +39,7 @@
       </nav>
       
     </header>
-    <main>
+    <main style="width: 640px; margin: 0 auto;">
 
     <section>
       <H2>📝Headline</H2>
@@ -52,6 +55,12 @@
           <p>2024년 4월 국민대학교 경영관 앞에 푸른 벚꽃 나무가 발견되어 사람들의 이목을 집중시키고 있다.</p>
           <p>2024년 4월 국민대학교 경영관 앞에 푸른 벚꽃 나무가 발견되어 사람들의 이목을 집중시키고 있다.</p>
           <p>2024년 4월 국민대학교 경영관 앞에 푸른 벚꽃 나무가 발견되어 사람들의 이목을 집중시키고 있다.</p>
+          <p class="=p-linebr p-justify long-text">
+            지방자치단체는 주민의 복리에 관한 사무를 처리하고 재산을 관리하며, 법령의 범위안에서 자치에 관한 규정을 제정할 수 있다. 국회는 법-률에 저촉되지 아니하는 범위안에서 의사와 내부규율에 관한 규칙을
+            제정할 수 있다. 공무원의 직무상 불법행위로 손해를 받은 국민은 법률이 정하는 바에 의하여 국가 또는 공공단체에 정당한 배상을 청구할 수 있다. 이 경우 공무원 자신의 책임은 면제되지 아니한다.
+            대통령후보자가 1인일 때에는 그 득표수가 선거권자 총수의 3분의 1 이상이 아니면 대통령으로 당선될 수 없다. 헌법재판소의 장은 국회의 동의를 얻어 재판관중에서 대통령이 임명한다. 형사피의자 또는
+            형사피고인으로서 구금되었던 자가 법률이 정하는 불기소처분을 받거나 무죄판결을 받은 때에는 법률이 정하는 바에 의하여 국가에 정당한 보상을 청구할 수 있다.
+          </p>
       </article>
     </section>
       
@@ -140,8 +149,76 @@
             <input type="submit">
             <button type="reset">초기화</button>
           </form>
-        </section>  
-      </main>
+        </section>
+
+        <style>
+          .div-square {
+            width: 100px;
+            height: 100px;
+          }
+
+          .sq-pd {
+            /*padding: 10px;*/
+            /*padding: 10px 20px;*/
+            /*padding: 20px 30px;*/
+            padding: 10px 20px 30px 40px;
+            padding-top: 30px;
+          }
+
+          .sq-mg {
+            margin: 30px 20px;
+          }
+
+          .div-center {
+            margin: 0px auto;
+            width: 25%;
+          }
+        </style>
+
+        <style>
+          .flex-container {
+            display: flex;
+            width: 295px;
+            height: 120px;
+            /*
+            flex-direction: row;
+            flex-wrap: nowrap;
+            */
+            flex-flow: column nowrap;
+          }
+
+          .flex-box {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+          }
+
+          .bg-red {
+            background-color: red;
+          }
+
+          .bg-blue {
+            background-color: blue;
+          }
+
+          .bg-gray {
+            background-color: gray;
+          }
+        </style>
+        <section class="flex-container">
+          <article class="flex-box bg-red">1</article>
+          <article class="flex-box bg-blue">2</article>
+          <article class="flex-box bg-gray">3</article>
+        </section>
+
+        <section>
+          <div class="div-square" style="background-color: blue;">1</div>
+          <div class="div-square sq-pd" style="background-color: red;">2</div>
+          <div class="div-square sq-mg" style="background-color: yellow;">3</div>
+          <div class="div-square div-center" style="background-color: green;">4</div>
+        </section>
+          
+    </main>
     
     <aside> <!-- aside : 요소에 이름달기(unique) class: 스타일속성 활용을 위한 이름 -->
       <h3>가장 많이 본 뉴스</h3>
@@ -157,7 +234,6 @@
     <footer>
       <h3>This is footer.</h3>
     </footer>
-
 
     
   </body>

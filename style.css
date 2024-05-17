@@ -5,3 +5,56 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Black Han Sans", sans-serif;
 }
+p {
+  font-family: "Sunflower", sans-serif;
+}
+
+.p-thin {
+  font-weight: 300;
+}
+
+.p-normal {
+  /*font-weight: 500; */
+  font-weight: normal;
+}
+
+.p-bold {
+  /*font-weight: 700;*/
+  font-weight: bold;
+}
+
+.p-larger {
+  /*font-size: 30px;*/
+  font-size: 2.5rem;
+  /*rem이 쓰기 더 편함, 페이지 전체 기준*/
+}
+
+.p-smaller {
+  /*font-size: 8px;*/
+  font-size: 0.8em;
+}
+
+.p-linebr{
+  line-break: strict;
+  word-break: break-all;
+}
+
+.p-align{
+  text-align: justify;
+}
+/*정렬 center, start, justify*/
+
+.p-justify{
+  text-align: justify;
+}
+
+
+#article2 > h1{
+  letter-spacing: -0.03rem;
+  word-spacing: 0.3rem;
+}
+/*줄간격*/
+
+.long-text {
+  line-height: 1.8rem;
+}
